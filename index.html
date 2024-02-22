@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discover Morocco</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #D2B48C;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #D2B48C;
+            text-align: center;
+            padding: 20px;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+
+        header img {
+            width: 50px; /* Adjust the width as needed */
+            height: auto; /* To maintain the aspect ratio */
+        }
+
+        section {
+            padding: 20px;
+            text-align: center;
+        }
+
+        iframe {
+            width: 100%;
+            max-width: 800px;
+            height: 315px;
+            margin: 20px 0;
+        }
+
+        .city-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .city {
+            width: 250px;
+            margin: 20px;
+            padding: 20px;
+            border: 1px solid #D2B48C;
+            border-radius: 8px;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .city img {
+            width: 100%;
+            height: 160px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 10px;
+        }
+
+        .city h3 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+
+        .city p {
+            font-size: 16px;
+            line-height: 1.5;
+            margin-bottom: 15px;
+        }
+
+        .button {
+            background-color: #D2B48C;
+            color: #333;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: rgba(0, 0, 0, 0.8);
+            color: #D2B48C;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="images/logo.png" alt="Logo">
+        <h1>Discover Morocco</h1>
+        <a href="https://www.visitmorocco.com/fr" class="button">More Information</a>
+        <a href="https://fr.wikipedia.org/wiki/Régions_du_Maroc" class="button">Regions</a>
+        <a class="button">Contact Us</a>
+    </header>
+
+    <section>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hVvEISFw9w0?si=v2OmnmF5bzp8adSO" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h2>Explore our Cities</h2>
+        <div class="city-container">
+            <div class="city">
+                <img src="images/casablanca.jpg" alt="Casablanca">
+                <h3>Casablanca</h3>
+                <p>Explore the modern and dynamic city on the Atlantic coast of Morocco</p>
+                <a href="https://fr.wikipedia.org/wiki/Casablanca" class="button">Discover</a>
+            </div>
+            <!-- Repeat the structure for other cities -->
+            <div class="city">
+                <img src="images/Tanger.jpg" alt="Tangier">
+                <h3>Tangier</h3>
+                <p>Discover the door of Africa the vibrant port city with a rich history and diversity</p>
+                <a href="https://fr.wikipedia.org/wiki/Tanger" class="button">Discover</a>
+            </div>
+            <div class="city">
+                <img src="images/Marrakech.jpg" alt="Marrakech">
+                <h3>Marrakech</h3>
+                <p>Experience the red city known for its lively markets and traditional architecture</p>
+                <a href="https://fr.wikipedia.org/wiki/Marrakech" class="button">Discover</a>
+            </div>
+            <div class="city">
+                <img src="images/fes.jpg" alt="Fes">
+                <h3>Fes</h3>
+                <p>Immerse yourself in the imperial city with a rich and diverse cultural heritage</p>
+                <a href="https://fr.wikipedia.org/wiki/Fès" class="button">Discover</a>
+            </div>
+        </div>
+    </section>
+
+    <section>
+
+        <p>"Morocco: Where Tradition Meets Tomorrow's Adventures - Uncover the Rich Tapestry of Culture, Heritage, and Endless Discoveries."</p>
+        <!-- Add more content as needed -->
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Discover Morocco.</p>
+    </footer>
+
+</body>
+</html>
+
